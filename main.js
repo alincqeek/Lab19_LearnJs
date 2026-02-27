@@ -179,5 +179,71 @@
 // console.log(fruits.includes("яблоко"));
 // console.log(fruits.includes("манго"));
 
-let citi = ["London", "Paris", "New York", "Tokyo", "Berlin"];
-if (citi.includes("Paris")){console.log(citi.indexOf("Paris"))}
+// let citi = ["London", "Paris", "New York", "Tokyo", "Berlin"];
+// if (citi.includes("Paris")){console.log(citi.indexOf("Paris"))}
+// let user2 = {
+//     name: "John",
+//     age: 30,
+//     city: "New York"
+// };
+
+// console.log(user2.name);
+// console.log(user2.age);
+// console.log(user2["name"]);
+
+// let book = {
+//     title: "Война и мир",
+//     author: "Лев Толстой",
+//     year: 1869
+// };
+
+// console.log(book.title);
+// console.log(book["author"]);
+// console.log(book.year);
+// book.year=2026;
+// console.log(book.year);
+
+// let user2 = {
+//     name: "Ivan",
+//     age: 20,
+//     isStudent: true
+// };
+
+// user2.sayHello = function() {
+//     console.log(`Hello, my name is ${this.name}`);
+// };
+
+// user2.sayHello();
+
+// let car = {
+//     brand: "bmw",
+//     year: 2008,
+//     getInfo: function() {
+//         console.log(`${this.brand} - ${this.year}`);
+//     }
+// };
+
+// car.getInfo();
+
+// let product = {
+//     name: "Ноутбук",
+//     price: 75000,
+//     category: "Электроника",
+//     inStock: true
+// };
+// for (let i in product){
+//     console.log(i + ": " + product[i]);
+// }
+
+// let student = {
+//     name: "Григорий",
+//     skills: ["HTML", "CSS", "JS"],
+//     address: {
+//         city: "Волжский",
+//         street: "Пушкина"
+//     }
+// };
+
+// console.log(student.skills[0]);
+// console.log(student.address.city);
+

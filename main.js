@@ -49,3 +49,71 @@
 //     }
 //     console.log(s);
 // }
+
+// function sum(a,b){return a+b;}
+// console.log(sum(3,5))
+
+// function multiply(a,b){return a*b;}
+// console.log(multiply(3,5))
+
+// function sayHello(name) {
+//     console.log(`Hello, ${name}`);
+// }
+
+// sayHello("Тимофей");
+
+// function printInfo(name, old) {
+//     console.log(`${name} - ${old} лет`);
+// }
+
+// printInfo("Alina","17")
+
+// function greet(name = "Гость") {
+//     console.log("Привет, " + name);
+// }
+
+// greet();
+// greet("Анастасия");
+
+// function calculateDiscount(a,b=10){
+//     return a-((a*b)/100)
+// }
+// console.log(calculateDiscount(50,50))
+
+// const add = function (a, b) {
+//     return a + b;
+// };
+
+// console.log(add(2, 3));
+
+// function makeCounter() {
+//     let count = 0;
+//     return function () {
+//         count++;
+//         return count;
+//     };
+// }
+
+// const counter = makeCounter();
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+
+// function sumFunc(a, b) {
+//     return a + b;
+// }
+
+// const sumFunc2 = (a, b) => a + b;
+
+// const double = x => x * 2;
+
+// const sumFunc3 = (a, b) => a + b;
+
+// const sayGreeting = () => console.log("Hello");
+
+// const square = x => x * x;
+
+// const calculate = (a, b) => {
+//     let result = a + b;
+//     return result * 2;
+// };

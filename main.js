@@ -117,3 +117,67 @@
 //     let result = a + b;
 //     return result * 2;
 // };
+
+// let numbersArr = [1, 2, 3, 4, 5];
+// console.log(numbersArr);
+
+// console.log(numbersArr[0]);
+// console.log(numbersArr[1]);
+
+// let colors=["red","yellow","blue"];
+// console.log(colors[0]);
+// console.log(colors[2]);
+// colors[2]="grean"
+// console.log(colors)
+
+// let colors = ["red", "green", "blue"];
+// console.log(colors[0]);
+// console.log(colors[colors.length - 1]);
+// colors[1] = "yellow";
+// console.log(colors);
+
+// console.log(numbersArr.length);
+
+// numbersArr.push(10);
+// console.log(numbersArr);
+
+// numbersArr.pop();
+// console.log(numbersArr);
+
+// let students=[];
+// students.push("Alina");
+// students.push("Artur");
+// students.push("Denis");
+// students.pop();
+// console.log(students)
+
+// let students = [];
+// students.push("Анна");
+// students.push("Иван");
+// students.push("Мария");
+// students.pop();
+// console.log(students);
+
+// let numbers2 = [10, 20, 30];
+// for (let i = 0; i < numbers2.length; i++) {
+//     console.log(numbers2[i]);
+// }
+// let numbers2 = [10, 20, 30];
+
+// for (let value of numbers2) {
+//     console.log(value);
+// }
+
+// let mixedArray = [1, "text", true, 3.14];
+// console.log(mixedArray);
+
+// let numbersArr = [1, 2, 3, 4, 5];
+// console.log(numbersArr.includes(1));
+// console.log(numbersArr.indexOf(2));
+
+// let fruits = ["яблоко", "банан", "апельсин"];
+// console.log(fruits.includes("яблоко"));
+// console.log(fruits.includes("манго"));
+
+let citi = ["London", "Paris", "New York", "Tokyo", "Berlin"];
+if (citi.includes("Paris")){console.log(citi.indexOf("Paris"))}
